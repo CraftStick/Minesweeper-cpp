@@ -1,24 +1,23 @@
-# 💣 Minesweeper Game in C++
+# Minesweeper
 
-🎯 A colorful console implementation of the classic Minesweeper game using only C++.
-<img width="563" alt="Снимок экрана 2025-05-08 в 20 21 20" src="https://github.com/user-attachments/assets/c384f21e-a7b9-4601-944f-e8bae63bab14" />
+[English](README.md) · [Русский](README.ru.md)
 
-## 🕹️ How to Play
+A colorful console implementation of the classic Minesweeper game in C++.
 
-- The game generates a 9×9 grid with 10 hidden mines.
-- Input coordinates in the format: `row column`
-- Try not to hit a mine!
+## Features
 
-## 🎨 Features
+- 9×9 grid with 10 hidden mines
+- Colored output: cyan for hidden cells, red for mines, yellow for numbers, white for empty cells
 
-- Colored output:
-  - Cyan = hidden cell
-  - Red = mine
-  - Yellow = numbers
-  - White = empty cell
+## Getting Started
 
-## 🛠 How to Run
+Requires a C++ compiler (for example `g++`).
 
 ```bash
 g++ Minesweeper.cpp -o Minesweeper
 ./Minesweeper
+```
+
+## Usage
+
+Enter coordinates as `row column` and try not to hit a mine.
